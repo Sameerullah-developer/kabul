@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device=width">
+        <link rel="stylesheet" href="styles.css">
+        <script src="Javascript.js"></script>
+        <title>Login Page</title>
+    </head>
+    <body>
+        <section>
+        <h1 class="headone animated-text">Sign Up</h1>
+        <p class="emotion">To gain better knowledge</p>
+        <form action="" method="post">
+            <label for="name">First Name:</label>
+            <input type="text" name="name" required placeholder="Type Your Name..." id="boxes">
+            <label for="lname">Last Name:</label>
+            <input type="text" name="name" required placeholder="Type Your Last Name..." id="boxes">
+            <label for="email">Email:</label>
+            <input type="email" name="email" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required title="Type a valid Email Address" id="boxes">
+            <label for="password">Create Password:</label>
+            <input type="password" id="password" name="password" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" 
+             required id="boxes">
+            <label for="Cpassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" name="password" required>
+            <input type="button" value="Create account" class="btn">
+
+        </form>
+    </section>
+
+    </body>
+</html>
